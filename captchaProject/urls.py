@@ -6,5 +6,5 @@ from django.urls.conf import include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include("captchaApp.urls")),
-    #path('captcha/', include("captcha.urls")),
+    path('captcha/', include("captcha.urls")),
 ]
